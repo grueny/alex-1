@@ -30,7 +30,7 @@ public final class MeineVertraegeSpeechletRequestStreamHandler extends Speechlet
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
         supportedApplicationIds = new HashSet<String>();
-        // supportedApplicationIds.add("amzn1.echo-sdk-ams.app.[unique-value-here]");
+        supportedApplicationIds.add("amzn1.ask.skill.d7d50529-3f0e-47be-9522-64baf27941ba");
     }
 
     public MeineVertraegeSpeechletRequestStreamHandler() {
